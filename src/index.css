@@ -1,0 +1,30 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: Inter, Arial, sans-serif;
+  background: #f1f3f5;
+  color: #0f1419;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+}
